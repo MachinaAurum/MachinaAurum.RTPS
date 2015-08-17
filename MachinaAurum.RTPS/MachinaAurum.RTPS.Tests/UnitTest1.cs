@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
+using System.Linq;
 
 namespace MachinaAurum.RTPS.Tests
 {
@@ -26,10 +27,21 @@ namespace MachinaAurum.RTPS.Tests
             writer.Cancel();
             await writer.Completion;
 
-            await Task.Delay(1000);
+            Message msg = null;
+            queue.TryDequeue(out msg);
 
-            reader.Cancel();
-            await reader.Completion;
+            Assert.AreEqual(ProtocolId.ProtocolRTPS, msg.Header.Protocol);
+            Assert.AreEqual(ProtocolVersion.v22, msg.Header.Version);
+            Assert.AreEqual(VendorId.Unknown, msg.Header.Vendor);
+            Assert.AreEqual(Guid.Empty, msg.Header.GuidPrefix.Prefix);
+
+            Assert.AreEqual(1, msg.SubMessages.Count());
+
+            var subMessage = msg.SubMessages.First();
+
+            Assert.AreEqual(SubMessageFlag.HighEndian, subMessage.Header.Flags);
+            Assert.AreEqual(SubMessageKind.Data, subMessage.Header.SubMessageId);
+            Assert.AreEqual(4, subMessage.Header.SubMessageLength);
         }
     }
 }

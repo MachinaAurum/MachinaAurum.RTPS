@@ -28,7 +28,32 @@ namespace MachinaAurum.RTPS.Tests
                 foreach (var item in items)
                 {
                     Console.WriteLine("Writer");
-                    var message = new Message();
+
+                    var message = new Message()
+                    {
+                        Header = new Header()
+                        {
+                            Protocol = ProtocolId.ProtocolRTPS,
+                            Version = ProtocolVersion.v22,
+                            Vendor = VendorId.Unknown,
+                            GuidPrefix = new GuidPrefix()
+                        }
+                    };
+
+                    var subMessage = new SubMessage()
+                    {
+                        Header = new SubMessageHeader()
+                        {
+                            SubMessageId = SubMessageKind.Data,
+                            Flags = SubMessageFlag.HighEndian,
+                            SubMessageLength = 4
+                        }
+                    };
+
+                    subMessage.AddSubMessageElement(new SerializedPaylodSubMessageElement(item.Data));
+
+                    message.AddSubMessage(subMessage);
+
                     this.queue.Enqueue(message);
                 }
             });
