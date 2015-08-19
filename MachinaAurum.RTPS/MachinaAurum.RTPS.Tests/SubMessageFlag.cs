@@ -5,7 +5,9 @@ namespace MachinaAurum.RTPS.Tests
     [Flags]
     public enum SubMessageFlag
     {
-        HighEndian,
-        LowEndian
+        HighEndian = 1,
+        InlineQos = 2,
+        HasData = 4,
+        HasKey = 8,
     }
 }

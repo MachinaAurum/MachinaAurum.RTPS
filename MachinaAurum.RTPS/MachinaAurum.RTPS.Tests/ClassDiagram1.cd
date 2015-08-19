@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MachinaAurum.RTPS.Tests.CacheChange" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABABAABAAgAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>CacheChange.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.Data" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.IntData" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.GuidPrefix" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GuidPrefix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.Header" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAgBAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Header.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.HistoryCache" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HistoryCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.InstanceHandle" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InstanceHandle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.GuidInstanceHandle" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InstanceHandle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.Message" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABABAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Header" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubMessages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.Reader" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAAAAAABAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.SequenceNumber" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>SequenceNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.SerializedPaylodSubMessageElement" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SerializedPaylodSubMessageElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.SubMessage" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Submessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Header" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Elements" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.SubMessageElement" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubMessageElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.SubMessageHeader" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SubMessageHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.Writer" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAAAhAAAACQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Writer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.DataSubMessage" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgAAAAAAIAAQAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataSubMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.EntityId" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachinaAurum.RTPS.Tests.ParameterList" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParameterList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MachinaAurum.RTPS.Tests.ChangeKind" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>ChangeKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachinaAurum.RTPS.Tests.ProtocolId" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ProtocolId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachinaAurum.RTPS.Tests.ProtocolVersion" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProtocolVersion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachinaAurum.RTPS.Tests.SubMessageFlag" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubMessageFlag.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachinaAurum.RTPS.Tests.SubMessageKind" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAAYCgAAAAAACAAAAAAgABAIAAAAEAQAAAA=</HashCode>
+      <FileName>SubMessageKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachinaAurum.RTPS.Tests.VendorId" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>VendorId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

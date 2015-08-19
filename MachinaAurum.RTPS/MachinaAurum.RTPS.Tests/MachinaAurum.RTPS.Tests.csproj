@@ -53,14 +53,19 @@
     <Compile Include="CacheChange.cs" />
     <Compile Include="ChangeKind.cs" />
     <Compile Include="Data.cs" />
+    <Compile Include="DataSubMessage.cs" />
+    <Compile Include="EntityId.cs" />
     <Compile Include="GuidPrefix.cs" />
     <Compile Include="Header.cs" />
+    <Compile Include="HeartbeatSubMessage.cs" />
     <Compile Include="HistoryCache.cs" />
     <Compile Include="InstanceHandle.cs" />
     <Compile Include="Message.cs" />
+    <Compile Include="ParameterList.cs" />
     <Compile Include="ProtocolId.cs" />
     <Compile Include="ProtocolVersion.cs" />
     <Compile Include="Reader.cs" />
+    <Compile Include="RTPSServer.cs" />
     <Compile Include="SequenceNumber.cs" />
     <Compile Include="SerializedPaylodSubMessageElement.cs" />
     <Compile Include="Submessage.cs" />
@@ -72,6 +77,15 @@
     <Compile Include="Writer.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Projects\AsyncSocketTest\MachinaAurum.Network\MachinaAurum.Network.csproj">
+      <Project>{4da6e164-b1a6-4351-b17c-f3a84abc5497}</Project>
+      <Name>MachinaAurum.Network</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

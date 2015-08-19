@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{766C0E51
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.RTPS.Tests", "MachinaAurum.RTPS.Tests\MachinaAurum.RTPS.Tests.csproj", "{E0F71C05-27EA-4728-99DB-F1E34374F9B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinaAurum.Network", "..\..\Projects\AsyncSocketTest\MachinaAurum.Network\MachinaAurum.Network.csproj", "{4DA6E164-B1A6-4351-B17C-F3A84ABC5497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{E0F71C05-27EA-4728-99DB-F1E34374F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0F71C05-27EA-4728-99DB-F1E34374F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0F71C05-27EA-4728-99DB-F1E34374F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA6E164-B1A6-4351-B17C-F3A84ABC5497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA6E164-B1A6-4351-B17C-F3A84ABC5497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA6E164-B1A6-4351-B17C-F3A84ABC5497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA6E164-B1A6-4351-B17C-F3A84ABC5497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
